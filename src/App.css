@@ -1,0 +1,48 @@
+label{
+  font-size: 200%;
+  margin-right: 15px;
+}
+
+p{
+  font-size: 300%;
+  text-align: center;
+}
+
+div.selector {
+  justify-content: center;
+  display: flex;
+}
+
+div.wthrTbl {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 25px;
+  background-color: #222;
+  border-radius: 5px;
+  width: 50%;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+div.wthrCel {
+  text-align: center;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+  flex: 1 1 calc(12.5% - 10px);
+}
+
+div.wthrCel img {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+@media (max-width: 800px) {
+  div.wthrCel {
+      flex: 1 1 calc(25% - 10px);
+  }
+}
+
